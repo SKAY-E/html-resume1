@@ -1,0 +1,429 @@
+/* CSS Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+header nav {
+    background-color: #0B1D51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 0;
+}
+
+header nav span {
+    color: #F8F7F9;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+header nav ul a {
+    color: #F8F7F9;
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 14pt;
+}
+
+header nav ul a:hover {
+    color: #F7EC59;
+}
+
+.footer {
+    background-color: #0B1D51;
+    color: #F8F7F9;
+    text-align: center;
+    padding: 16px 4px;
+    margin-top: 40px;
+    font-size: 10pt;
+}
+
+main {
+    padding: 24px;
+    margin: 0 auto;
+}
+
+.homeMainSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profileImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.resumeMainSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactDetails h3 {
+    font-size: 24pt;
+    font-weight: 600;
+    color: #0B1D51;
+}
+
+.contactDetails a {
+    font-size: 14pt;
+    color: #A71D31;
+    text-decoration: none;
+}
+
+.homeLink {
+    color: #A71D31;
+    text-decoration: none;
+}
+
+.resumeDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: auto;
+}
+
+.resumeSkills {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.resumeSkills h3,
+.detailSectionTop h3,
+.detailSectionBottom h3,
+.projectItem h3,
+.contactMainSectionTitle {
+    color: #0077B6;
+}
+
+.resumeSkills ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.resumeSkills ul li {
+    margin-bottom: 5px;
+}
+
+.detailSection {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.detailSectionTop,
+.detailSectionBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.experience div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.jobPosition {
+    color: #0B1D51;
+}
+
+.dateWorked {
+    font-size: 10pt;
+    color: #355834;
+    font-weight: 600;
+}
+
+.experience ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.projectsMainSection,
+.contactMainSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.projectsMainSectionTitle {
+    font-size: 16pt;
+}
+
+.projectItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.projectItem {
+    background-color: #E9F1F7;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: max-content;
+}
+
+.projectItem h3,
+.contactMainSectionTitle {
+    font-size: 18pt;
+}
+
+.projectItem p,
+.homeMainSection p {
+    font-size: 14pt;
+}
+
+.projectImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.contactForm h4 {
+    margin-bottom: 16px;
+    font-size: 16pt;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.contactForm form label,
+.contactForm form input,
+.contactForm form textarea {
+    font-size: 14pt;
+}
+
+.contactForm form input {
+    height: 50px;
+}
+
+.contactForm form input,
+.contactForm form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.contactForm form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.contactForm form button {
+    background-color: #0B1D51;
+    color: #F8F7F9;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.homeLink {
+    color: green;
+
+}
+
+.workScreenshot {
+    height: 400px;
+    width: 400px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.quote-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.inspirationalQuote {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 600px) {
+    header nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 18px 16px;
+    }
+
+    header nav ul {
+        gap: 12px;
+    }
+
+    main {
+        padding: 16px;
+    }
+
+    .homeSection {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .resumeSkills {
+        align-items: center;
+    }
+
+    .resumeSkills h3,
+    .detailSectionTop h3,
+    .detailSectionBottom h3 {
+        font-size: 18pt;
+    }
+
+    .detailSectionTop p,
+    .listItems li,
+    .experience p,
+    .resumeSkills ul li,
+    .homeMainSection p {
+        font-size: 16pt;
+    }
+
+    .jobPosition {
+        font-size: 14pt;
+    }
+
+    .dateWorked {
+        font-size: 12pt;
+    }
+
+    .projectsMainSectionTitle {
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .projectItem p {
+        font-size: 16pt;
+    }
+
+    .contactForm form {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header nav {
+        padding: 20px 18px;
+    }
+
+    main {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .homeSection {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        font-size: 12pt;
+    }
+
+    .profileImage {
+        height: 300px;
+    }
+
+    .resumeDetails {
+        flex-direction: row;
+        align-items: flex-start;
+        align-self: center;
+        gap: 50px;
+        width: 80%;
+    }
+
+    .resumeSkills {
+        width: 30%;
+        align-items: flex-start;
+    }
+
+    .detailSection {
+        width: 60%;
+    }
+
+    .resumeSkills h3,
+    .detailSectionTop h3,
+    .detailSectionBottom h3 {
+        font-size: 20pt;
+    }
+
+    .detailSectionTop p,
+    .listItems li,
+    .experience p,
+    .resumeSkills ul li {
+        font-size: 16pt;
+    }
+
+    .homeMainSection p {
+        font-size: 18pt;
+    }
+
+    .jobPosition {
+        font-size: 16pt;
+    }
+
+    .dateWorked {
+        font-size: 14pt;
+    }
+
+    .contactForm form {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .profileImage {
+        height: 400px;
+    }
+}
